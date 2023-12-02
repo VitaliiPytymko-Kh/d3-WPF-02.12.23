@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="d3_2" Height="500" Width="400">
+        Title="d3_2" Height="600" Width="350">
     <Grid Background="Orange">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -17,7 +17,7 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
+            
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -30,31 +30,31 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <Button Margin="3" Background="Black" >1</Button>
-        <Button Margin="3">2</Button>
-        <Button Margin="3">3</Button>
-        <Button Margin="3">4</Button>
-        <Button Margin="3">5</Button>
-        <Button Margin="3">6</Button>
-        <Button Margin="3">7</Button>
-        <Button Margin="3">8</Button>
-        <Button Margin="3">9</Button>
-        <Button Margin="3">10</Button>
-        <Button Margin="3">11</Button>
-        <Button Margin="3">12</Button>
-        <Button Margin="3">13</Button>
-        <Button Margin="3">14</Button>
-        <Button Margin="3">15</Button>
-        <Button Margin="3">16</Button>
-        <Button Margin="3">17</Button>
-        <Button Margin="3">18</Button>
-        <Button Margin="3">19</Button>
-        <Button Margin="3">20</Button>
-        <Button Margin="3">21</Button>
-        <Button Margin="3">22</Button>
-        <Button Margin="3">23</Button>
-        <Button Margin="3">24</Button>
-        <Button Margin="3">25</Button>
+        <Button Margin="4" Background="Black" Grid.ColumnSpan="2" d:IsHidden="True" >1</Button>
+        <Button Margin="4" Background="#FF008001" Grid.ColumnSpan="2" Grid.Row="1">2</Button>
+        <Button Margin="4" Background="#FF01008C" Grid.ColumnSpan="2" Grid.Row="2">3</Button>
+        <Button Margin="4" Background="#FF111111" Grid.ColumnSpan="2" Grid.Row="3">4</Button>
+        <Button Margin="4" Background="#FF12DCDC" Grid.ColumnSpan="2" Grid.Row="4">5</Button>
+        <Button Margin="4" Background="#FF133FDE" Grid.ColumnSpan="2" Grid.Row="5" Grid.RowSpan="2">6</Button>
+        <Button Margin="4" Background="#FFBBB000" Grid.Row="7" Grid.RowSpan="2" >7</Button>
+        <Button Margin="4" Background="#FFFFD701" Grid.Column="1" Grid.Row="7" Grid.RowSpan="7" >8</Button>
+        <Button Margin="4" Background="Aqua" Grid.Column="2" Grid.Row="4" Grid.RowSpan="5" >9</Button>
+        <Button Margin="4" Background="#FF003456" Grid.Column="2" Grid.Row="2" Grid.RowSpan="2">10</Button>
+        <Button Margin="4" Background="White" Grid.Column="2" Grid.RowSpan="2">11</Button>
+        <Button Margin="4" Background="#FF81007F" Grid.Column="5" >12</Button>
+        <Button Margin="4" Background="Pink" Grid.Column="4">13</Button>
+        <Button Margin="4" Background="Gray" Grid.Column="3">14</Button>
+        <Button Margin="4" Background="LightGreen" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="4"  >15</Button>
+        <Button Margin="4" Background="#FFFE0000" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="5" >16</Button>
+        <Button Margin="4" Background="#FFADD9E6" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan="2" >17</Button>
+        <Button Margin="4" Background="#FFFDE521" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="2" Grid.RowSpan="2" >18</Button>
+        <Button Margin="4" Background="#FFFFFF01" Grid.Column="6" Grid.ColumnSpan="2" Grid.Row="4" Grid.RowSpan="2" >19</Button>
+        <Button Margin="4" Background="#FFEEEEEE" Grid.Column="3" Grid.Row="6" Grid.RowSpan="3"  >20</Button>
+        <Button Margin="4" Background="#FFAAAAAA" Grid.Column="4" Grid.ColumnSpan="4" Grid.Row="6" >21</Button>
+        <Button Margin="4" Background="#FF100289" Grid.Column="4" Grid.Row=" 7" Grid.ColumnSpan="2" Grid.RowSpan="2"  >22</Button>
+        <Button Margin="4" Background="Pink" Grid.Column="6" Grid.Row="7" Grid.ColumnSpan="2">23</Button>
+        <Button Margin="4" Background="#FFDA000E" Grid.Column="6" Grid.Row="8"  >24</Button>
+        <Button Margin="4" Background="#FFA62A2A" Grid.Column="7" Grid.Row="8">25</Button>
 
 
 
